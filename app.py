@@ -1,5 +1,5 @@
 """
-MRP Values-Only Converter
+Excel Values-Only Converter
 Upload an Excel file that was recalculated and saved in Excel.
 Every formula is replaced by its last calculated value, external links are removed,
 and formatting is kept. Download the light copy.
