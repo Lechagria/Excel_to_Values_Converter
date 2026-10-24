@@ -52,10 +52,10 @@ def to_values_only(file_bytes: bytes, is_xlsm: bool):
 
 
 # ---------------- UI ----------------
-st.set_page_config(page_title="MRP Values-Only Converter", page_icon="📦")
+st.set_page_config(page_title="Excel Values-Only Converter", page_icon="📦")
 st.title("📦 MRP Values-Only Converter")
 st.write(
-    "Upload the MRP file **after** it has been updated and saved in Excel. "
+    "Upload the Excel file **after** it has been updated and saved in Excel. "
     "You'll get a light copy with every formula replaced by its current value."
 )
 
